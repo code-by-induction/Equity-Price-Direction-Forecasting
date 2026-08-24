@@ -114,13 +114,13 @@ Kurtosis of 14.06 (far above the value of 3 expected for a normal distribution) 
 
 **3. Volatility clusters over time.**
 
-Rather than being random and evenly spread, large price swings tend to cluster together (calm markets stay calm, turbulent markets stay turbulent) — clearly visible in the rolling 21-day annualized volatility chart, with the sharpest spike during the 2020 market crash.
+Rather than being random and evenly spread, large price swings tend to cluster together (calm markets stay calm, turbulent markets stay turbulent) - clearly visible in the rolling 21-day annualized volatility chart, with the sharpest spike during the 2020 market crash.
 
 
 
 **4. The model does not meaningfully beat a naive baseline.**
 
-The default model achieved 55.5% accuracy on next-day direction — below the "always predict Up" baseline of 57.6%. This is a legitimate and expected finding, not a failure: it is broadly consistent with weak-form market efficiency, which holds that past price and volume data alone should not reliably predict future returns.
+The default model achieved 55.5% accuracy on next-day direction - below the "always predict Up" baseline of 57.6%. This is a legitimate and expected finding, not a failure: it is broadly consistent with weak-form market efficiency, which holds that past price and volume data alone should not reliably predict future returns.
 
 
 
