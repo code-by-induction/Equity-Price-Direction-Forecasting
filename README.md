@@ -14,7 +14,7 @@ This project investigates whether short-term stock price direction can be predic
 
 
 
-**Core question:** Can lagged returns, moving averages, volatility, volume, and momentum indicators predict whether a stock's price will go up or down the next trading day — and if a model based on these signals is used to trade, does it actually outperform simply buying and holding?
+**Core question:** Can lagged returns, moving averages, volatility, volume, and momentum indicators predict whether a stock's price will go up or down the next trading day - and if a model based on these signals is used to trade, does it actually outperform simply buying and holding?
 
 
 
