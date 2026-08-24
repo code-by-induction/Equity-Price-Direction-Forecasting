@@ -10,7 +10,7 @@
 
 
 
-This project investigates whether short-term stock price direction can be predicted using historical price and volume data alone. It follows an end-to-end data science pipeline: real market data collection, exploratory data analysis (EDA), feature engineering, predictive modeling, and strategy backtesting — the kind of workflow used in quantitative finance research.
+This project investigates whether short-term stock price direction can be predicted using historical price and volume data alone. It follows an end-to-end data science pipeline: real market data collection, exploratory data analysis (EDA), feature engineering, predictive modeling, and strategy backtesting - the kind of workflow used in quantitative finance research.
 
 
 
@@ -108,7 +108,7 @@ The ADF test confirms a foundational result in quantitative finance: raw price s
 
 **2. Financial returns exhibit fat tails.**
 
-Kurtosis of 14.06 (far above the value of 3 expected for a normal distribution) confirms that extreme return days occur far more often than a normal distribution would predict — visible directly in the volatility spikes during 2020 (COVID) and other periods in the rolling volatility chart.
+Kurtosis of 14.06 (far above the value of 3 expected for a normal distribution) confirms that extreme return days occur far more often than a normal distribution would predict - visible directly in the volatility spikes during 2020 (COVID) and other periods in the rolling volatility chart.
 
 
 
@@ -132,13 +132,13 @@ Forcing the model to weight the minority "Down" class more heavily reduced overa
 
 **6. The trading strategy underperformed passive investing, but with a smaller drawdown.**
 
-Despite the modest predictive edge, the model-driven strategy produced a lower Sharpe ratio and lower cumulative return than simply buying and holding SPY over the test period. Interestingly, its maximum drawdown was slightly smaller (-17.5% vs. -18.8%), suggesting the model avoided being fully invested during some of the worst days — a partial, if incomplete, risk-management benefit.
+Despite the modest predictive edge, the model-driven strategy produced a lower Sharpe ratio and lower cumulative return than simply buying and holding SPY over the test period. Interestingly, its maximum drawdown was slightly smaller (-17.5% vs. -18.8%), suggesting the model avoided being fully invested during some of the worst days - a partial, if incomplete, risk-management benefit.
 
 
 
 **7. Transaction costs matter.**
 
-After accounting for an estimated 5 basis points per trade, the net-of-costs strategy return was further reduced from the gross figure — a reminder that even a strategy with a real (if small) edge can be eroded by trading frictions in practice.
+After accounting for an estimated 5 basis points per trade, the net-of-costs strategy return was further reduced from the gross figure - a reminder that even a strategy with a real (if small) edge can be eroded by trading frictions in practice.
 
 
 
@@ -146,7 +146,7 @@ After accounting for an estimated 5 basis points per trade, the net-of-costs str
 
 
 
-This project demonstrates that next-day stock direction is very difficult to predict using price and volume features alone — a result consistent with market efficiency theory rather than a shortcoming of the modeling approach. The value of this project lies less in producing a profitable trading signal and more in demonstrating a rigorous, honest quantitative research process: proper time-series train/test methodology, awareness of data stationarity, evaluation against a naive baseline, and risk-adjusted performance metrics (Sharpe ratio, drawdown) rather than accuracy alone.
+This project demonstrates that next-day stock direction is very difficult to predict using price and volume features alone - a result consistent with market efficiency theory rather than a shortcoming of the modeling approach. The value of this project lies less in producing a profitable trading signal and more in demonstrating a rigorous, honest quantitative research process: proper time-series train/test methodology, awareness of data stationarity, evaluation against a naive baseline, and risk-adjusted performance metrics (Sharpe ratio, drawdown) rather than accuracy alone.
 
 
 
